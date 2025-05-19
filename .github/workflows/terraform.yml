@@ -79,7 +79,6 @@ jobs:
         echo "$HOME/tfenv/bin" >> $GITHUB_PATH
         export PATH=$HOME/tfenv/bin:$PATH
         echo 'export PATH=$HOME/tfenv/bin:$PATH' >> ~/.bashrc
-        export TFENV_ROOT=/usr/local
         tfenv install
         tfenv use 1.12.0
 
