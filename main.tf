@@ -1,6 +1,5 @@
      terraform {
        backend "local" {
-         # The name of your Terraform Cloud organization.
        }
      }
 
